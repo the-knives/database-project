@@ -179,6 +179,13 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 	<link rel="stylesheet" href="http://localhost/Projects/beer/styles/style.css">
 </head>
 <body>
+<style type="text/css">
+	label {
+		width:200px;
+		display: inline-block;
+		border-bottom: 1px solid black;
+	}
+</style>
 <h1>Regular User Registration Form</h1>
 <div class="wrapper">
 	<h2>Sign Up</h2>
