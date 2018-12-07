@@ -1,0 +1,130 @@
+body {
+	text-align: center;
+	background-color: grey;
+}
+
+h1 {
+	color: white;
+}
+
+p {
+	color: white;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	position: -webkit-sticky; /* required for use in safari */
+	position: sticky;
+	top: 0;
+}
+
+li {
+	position: sticky;
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.active {
+	background-color: blue;
+	color: white;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+div {
+	text-align: justify;
+}
+
+label {
+	display: inline-block;
+	width: 150px;
+	margin-right: 10px;
+	text-align: justify;
+}
+
+input {
+}
+
+fieldset {
+	border: none;
+	width: 500px;
+	margin: 0px auto;
+}
+
+span {
+	width: 0px;
+	margin-left: 100px;
+	text-align: right;
+	float: center;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 19.5%;
+  margin-right: 0.625%;
+  text-align: center;
+  line-height: 3;
+  color: black;
+}
+
+li:last-child a {
+  margin-right: 0;
+}
+
+a:link, a:visited, a:focus {
+  background: yellow;
+}
+
+a:hover {
+  background: orange;
+}
+
+a:active {
+  background: red;
+  color: white;
+}
+
+th, td {
+			height: 40px;
+			padding: 10px;
+}
+
+tr:nth-of-type(odd) {
+	background-color:#ebad00;
+}
+
+tr:nth-of-type(even) {
+	background-color:#cc8000;
+}
+
+.link-btn {
+	text-decoration: none; 
+	color: white;
+	background: blue;
+	padding: 5px 10px;
+	display: block;
+	margin: 8px 8px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 13px;
+}
+ 
+.link-btn:hover {
+	background: #6ab8be;
+}

@@ -1,0 +1,4 @@
+
+navbar image:
+<a href="http://localhost/Projects/beer/"><img src="../images/beer_home_img.jpg" alt="BeerFinder.com"
+		style="width:200px; height:100px";></a><hr>
